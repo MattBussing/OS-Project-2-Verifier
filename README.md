@@ -8,8 +8,10 @@ Create Pull Requests to help this get better.
 
 To run the tests
 
-`[matt@violet project-2-MattBussing]$ bash OS-Project-2-Verifier/test.sh`
+`[matt@violet project-2-MattBussing]$ bash OS-Project-2-Verifier/test.sh test`
 
 If my outputs are bad, consider using this to generate your own outputs
 
-`[matt@violet project-2-MattBussing]$ bash OS-Project-2-Verifier/make-output.sh`
+`[matt@violet project-2-MattBussing]$ bash OS-Project-2-Verifier/test.sh gen`
+
+# Don't forget to generate Pull Requests or email me at mbussing@mymail.mines.edu

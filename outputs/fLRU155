@@ -1,0 +1,577 @@
+PID 10 @ 0000010011101111 [page: 19; offset: 47]
+    -> PAGE FAULT
+    -> physical address 0000000000101111 [frame: 0; offset: 47]
+    -> RSS: 1     
+
+PID 10 @ 0000101001100000 [page: 41; offset: 32]
+    -> PAGE FAULT
+    -> physical address 0000000001100000 [frame: 1; offset: 32]
+    -> RSS: 2     
+
+PID 10 @ 0000101011000111 [page: 43; offset: 7]
+    -> PAGE FAULT
+    -> physical address 0000000010000111 [frame: 2; offset: 7]
+    -> RSS: 3     
+
+PID 10 @ 0000010011101111 [page: 19; offset: 47]
+    -> IN MEMORY
+    -> physical address 0000000000101111 [frame: 0; offset: 47]
+    -> RSS: 3     
+
+PID 10 @ 0000000000111001 [page: 0; offset: 57]
+    -> PAGE FAULT
+    -> physical address 0000000011111001 [frame: 3; offset: 57]
+    -> RSS: 4     
+
+PID 10 @ 0000101011000111 [page: 43; offset: 7]
+    -> IN MEMORY
+    -> physical address 0000000010000111 [frame: 2; offset: 7]
+    -> RSS: 4     
+
+PID 10 @ 0000011000011001 [page: 24; offset: 25]
+    -> PAGE FAULT
+    -> physical address 0000000100011001 [frame: 4; offset: 25]
+    -> RSS: 5     
+
+PID 10 @ 0000100100101101 [page: 36; offset: 45]
+    -> PAGE FAULT
+    -> physical address 0000000101101101 [frame: 5; offset: 45]
+    -> RSS: 6     
+
+PID 10 @ 0000101011000111 [page: 43; offset: 7]
+    -> IN MEMORY
+    -> physical address 0000000010000111 [frame: 2; offset: 7]
+    -> RSS: 6     
+
+PID 10 @ 0000010100000001 [page: 20; offset: 1]
+    -> PAGE FAULT
+    -> physical address 0000000110000001 [frame: 6; offset: 1]
+    -> RSS: 7     
+
+PID 10 @ 0000110001000011 [page: 49; offset: 3]
+    -> PAGE FAULT
+    -> physical address 0000000111000011 [frame: 7; offset: 3]
+    -> RSS: 8     
+
+PID 10 @ 0000000001101000 [page: 1; offset: 40]
+    -> PAGE FAULT
+    -> physical address 0000001000101000 [frame: 8; offset: 40]
+    -> RSS: 9     
+
+PID 10 @ 0000011001111000 [page: 25; offset: 56]
+    -> PAGE FAULT
+    -> physical address 0000001001111000 [frame: 9; offset: 56]
+    -> RSS: 10    
+
+PID 10 @ 0000101011000111 [page: 43; offset: 7]
+    -> IN MEMORY
+    -> physical address 0000000010000111 [frame: 2; offset: 7]
+    -> RSS: 10    
+
+PID 10 @ 0000000110110010 [page: 6; offset: 50]
+    -> PAGE FAULT
+    -> physical address 0000001010110010 [frame: 10; offset: 50]
+    -> RSS: 11    
+
+PID 10 @ 0000010011101111 [page: 19; offset: 47]
+    -> IN MEMORY
+    -> physical address 0000000000101111 [frame: 0; offset: 47]
+    -> RSS: 11    
+
+PID 10 @ 0000001111101101 [page: 15; offset: 45]
+    -> PAGE FAULT
+    -> physical address 0000001011101101 [frame: 11; offset: 45]
+    -> RSS: 12    
+
+PID 10 @ 0000001111101101 [page: 15; offset: 45]
+    -> IN MEMORY
+    -> physical address 0000001011101101 [frame: 11; offset: 45]
+    -> RSS: 12    
+
+PID 10 @ 0000010011101111 [page: 19; offset: 47]
+    -> IN MEMORY
+    -> physical address 0000000000101111 [frame: 0; offset: 47]
+    -> RSS: 12    
+
+PID 10 @ 0000000000111001 [page: 0; offset: 57]
+    -> IN MEMORY
+    -> physical address 0000000011111001 [frame: 3; offset: 57]
+    -> RSS: 12    
+
+PID 10 @ 0000101011000111 [page: 43; offset: 7]
+    -> IN MEMORY
+    -> physical address 0000000010000111 [frame: 2; offset: 7]
+    -> RSS: 12    
+
+PID 10 @ 0000011010110010 [page: 26; offset: 50]
+    -> PAGE FAULT
+    -> physical address 0000001100110010 [frame: 12; offset: 50]
+    -> RSS: 13    
+
+PID 10 @ 0000101010110111 [page: 42; offset: 55]
+    -> PAGE FAULT
+    -> physical address 0000001101110111 [frame: 13; offset: 55]
+    -> RSS: 14    
+
+PID 10 @ 0000101011000111 [page: 43; offset: 7]
+    -> IN MEMORY
+    -> physical address 0000000010000111 [frame: 2; offset: 7]
+    -> RSS: 14    
+
+PID 10 @ 0000001111000100 [page: 15; offset: 4]
+    -> IN MEMORY
+    -> physical address 0000001011000100 [frame: 11; offset: 4]
+    -> RSS: 14    
+
+PID 10 @ 0000010001010010 [page: 17; offset: 18]
+    -> PAGE FAULT
+    -> physical address 0000001110010010 [frame: 14; offset: 18]
+    -> RSS: 15    
+
+PID 10 @ 0000010001010010 [page: 17; offset: 18]
+    -> IN MEMORY
+    -> physical address 0000001110010010 [frame: 14; offset: 18]
+    -> RSS: 15    
+
+PID 10 @ 0000001111000100 [page: 15; offset: 4]
+    -> IN MEMORY
+    -> physical address 0000001011000100 [frame: 11; offset: 4]
+    -> RSS: 15    
+
+PID 10 @ 0000110000111101 [page: 48; offset: 61]
+    -> PAGE FAULT
+    -> physical address 0000001111111101 [frame: 15; offset: 61]
+    -> RSS: 16    
+
+PID 10 @ 0000001001001111 [page: 9; offset: 15]
+    -> PAGE FAULT
+    -> physical address 0000010000001111 [frame: 16; offset: 15]
+    -> RSS: 17    
+
+PID 42 @ 0000000001110001 [page: 1; offset: 49]
+    -> PAGE FAULT
+    -> physical address 0010011011110001 [frame: 155; offset: 49]
+    -> RSS: 1     
+
+PID 42 @ 0000001110110001 [page: 14; offset: 49]
+    -> PAGE FAULT
+    -> physical address 0010011100110001 [frame: 156; offset: 49]
+    -> RSS: 2     
+
+PID 42 @ 0000001001010001 [page: 9; offset: 17]
+    -> PAGE FAULT
+    -> physical address 0010011101010001 [frame: 157; offset: 17]
+    -> RSS: 3     
+
+PID 42 @ 0001010100101000 [page: 84; offset: 40]
+    -> PAGE FAULT
+    -> physical address 0010011110101000 [frame: 158; offset: 40]
+    -> RSS: 4     
+
+PID 42 @ 0001100110011111 [page: 102; offset: 31]
+    -> PAGE FAULT
+    -> physical address 0010011111011111 [frame: 159; offset: 31]
+    -> RSS: 5     
+
+PID 42 @ 0000001101101000 [page: 13; offset: 40]
+    -> PAGE FAULT
+    -> physical address 0010100000101000 [frame: 160; offset: 40]
+    -> RSS: 6     
+
+PID 42 @ 0001011111000001 [page: 95; offset: 1]
+    -> PAGE FAULT
+    -> physical address 0010100001000001 [frame: 161; offset: 1]
+    -> RSS: 7     
+
+PID 42 @ 0000010111001110 [page: 23; offset: 14]
+    -> PAGE FAULT
+    -> physical address 0010100010001110 [frame: 162; offset: 14]
+    -> RSS: 8     
+
+PID 42 @ 0000110100000110 [page: 52; offset: 6]
+    -> PAGE FAULT
+    -> physical address 0010100011000110 [frame: 163; offset: 6]
+    -> RSS: 9     
+
+PID 42 @ 0000111001111010 [page: 57; offset: 58]
+    -> PAGE FAULT
+    -> physical address 0010100100111010 [frame: 164; offset: 58]
+    -> RSS: 10    
+
+PID 42 @ 0000011000010101 [page: 24; offset: 21]
+    -> PAGE FAULT
+    -> physical address 0010100101010101 [frame: 165; offset: 21]
+    -> RSS: 11    
+
+PID 42 @ 0000101001101101 [page: 41; offset: 45]
+    -> PAGE FAULT
+    -> physical address 0010100110101101 [frame: 166; offset: 45]
+    -> RSS: 12    
+
+PID 42 @ 0000110011110011 [page: 51; offset: 51]
+    -> PAGE FAULT
+    -> physical address 0010100111110011 [frame: 167; offset: 51]
+    -> RSS: 13    
+
+PID 42 @ 0000101001101110 [page: 41; offset: 46]
+    -> IN MEMORY
+    -> physical address 0010100110101110 [frame: 166; offset: 46]
+    -> RSS: 13    
+
+PID 42 @ 0001011100101100 [page: 92; offset: 44]
+    -> PAGE FAULT
+    -> physical address 0010101000101100 [frame: 168; offset: 44]
+    -> RSS: 14    
+
+PID 42 @ 0001011110000001 [page: 94; offset: 1]
+    -> PAGE FAULT
+    -> physical address 0010101001000001 [frame: 169; offset: 1]
+    -> RSS: 15    
+
+PID 42 @ 0001100100110111 [page: 100; offset: 55]
+    -> PAGE FAULT
+    -> physical address 0010101010110111 [frame: 170; offset: 55]
+    -> RSS: 16    
+
+PID 42 @ 0000010110011010 [page: 22; offset: 26]
+    -> PAGE FAULT
+    -> physical address 0010101011011010 [frame: 171; offset: 26]
+    -> RSS: 17    
+
+PID 42 @ 0001110100010011 [page: 116; offset: 19]
+    -> PAGE FAULT
+    -> physical address 0010101100010011 [frame: 172; offset: 19]
+    -> RSS: 18    
+
+PID 42 @ 0001101010100010 [page: 106; offset: 34]
+    -> PAGE FAULT
+    -> physical address 0010101101100010 [frame: 173; offset: 34]
+    -> RSS: 19    
+
+PID 42 @ 0001111010100010 [page: 122; offset: 34]
+    -> PAGE FAULT
+    -> physical address 0010101110100010 [frame: 174; offset: 34]
+    -> RSS: 20    
+
+PID 42 @ 0001100111011010 [page: 103; offset: 26]
+    -> PAGE FAULT
+    -> physical address 0010101111011010 [frame: 175; offset: 26]
+    -> RSS: 21    
+
+PID 42 @ 0001000001100001 [page: 65; offset: 33]
+    -> PAGE FAULT
+    -> physical address 0010110000100001 [frame: 176; offset: 33]
+    -> RSS: 22    
+
+PID 42 @ 0000010000100001 [page: 16; offset: 33]
+    -> PAGE FAULT
+    -> physical address 0010110001100001 [frame: 177; offset: 33]
+    -> RSS: 23    
+
+PID 42 @ 0001011110110000 [page: 94; offset: 48]
+    -> IN MEMORY
+    -> physical address 0010101001110000 [frame: 169; offset: 48]
+    -> RSS: 23    
+
+PID 42 @ 0001001100010110 [page: 76; offset: 22]
+    -> PAGE FAULT
+    -> physical address 0010110010010110 [frame: 178; offset: 22]
+    -> RSS: 24    
+
+PID 42 @ 0000010100101000 [page: 20; offset: 40]
+    -> PAGE FAULT
+    -> physical address 0010110011101000 [frame: 179; offset: 40]
+    -> RSS: 25    
+
+PID 42 @ 0000110101100000 [page: 53; offset: 32]
+    -> PAGE FAULT
+    -> physical address 0010110100100000 [frame: 180; offset: 32]
+    -> RSS: 26    
+
+PID 42 @ 0001100110111011 [page: 102; offset: 59]
+    -> IN MEMORY
+    -> physical address 0010011111111011 [frame: 159; offset: 59]
+    -> RSS: 26    
+
+PID 42 @ 0000010001101000 [page: 17; offset: 40]
+    -> PAGE FAULT
+    -> physical address 0010110101101000 [frame: 181; offset: 40]
+    -> RSS: 27    
+
+PID 42 @ 0001001101011101 [page: 77; offset: 29]
+    -> PAGE FAULT
+    -> physical address 0010110110011101 [frame: 182; offset: 29]
+    -> RSS: 28    
+
+PID 99 @ 0101101010100111 [page: 362; offset: 39]
+    -> PAGE FAULT
+    -> physical address 0100110110100111 [frame: 310; offset: 39]
+    -> RSS: 1     
+
+PID 99 @ 0100101000110101 [page: 296; offset: 53]
+    -> PAGE FAULT
+    -> physical address 0100110111110101 [frame: 311; offset: 53]
+    -> RSS: 2     
+
+PID 99 @ 0010000100010110 [page: 132; offset: 22]
+    -> PAGE FAULT
+    -> physical address 0100111000010110 [frame: 312; offset: 22]
+    -> RSS: 3     
+
+PID 99 @ 1000000101000010 [page: 517; offset: 2]
+    -> PAGE FAULT
+    -> physical address 0100111001000010 [frame: 313; offset: 2]
+    -> RSS: 4     
+
+PID 99 @ 0111100000001111 [page: 480; offset: 15]
+    -> PAGE FAULT
+    -> physical address 0100111010001111 [frame: 314; offset: 15]
+    -> RSS: 5     
+
+PID 99 @ 0001001111110000 [page: 79; offset: 48]
+    -> PAGE FAULT
+    -> physical address 0100111011110000 [frame: 315; offset: 48]
+    -> RSS: 6     
+
+PID 99 @ 0100110110101111 [page: 310; offset: 47]
+    -> PAGE FAULT
+    -> physical address 0100111100101111 [frame: 316; offset: 47]
+    -> RSS: 7     
+
+PID 99 @ 0001010011101011 [page: 83; offset: 43]
+    -> PAGE FAULT
+    -> physical address 0100111101101011 [frame: 317; offset: 43]
+    -> RSS: 8     
+
+PID 99 @ 0011100111000010 [page: 231; offset: 2]
+    -> PAGE FAULT
+    -> physical address 0100111110000010 [frame: 318; offset: 2]
+    -> RSS: 9     
+
+PID 99 @ 0001100100100101 [page: 100; offset: 37]
+    -> PAGE FAULT
+    -> physical address 0100111111100101 [frame: 319; offset: 37]
+    -> RSS: 10    
+
+PID 99 @ 0011111111000100 [page: 255; offset: 4]
+    -> PAGE FAULT
+    -> physical address 0101000000000100 [frame: 320; offset: 4]
+    -> RSS: 11    
+
+PID 99 @ 0110001001000000 [page: 393; offset: 0]
+    -> PAGE FAULT
+    -> physical address 0101000001000000 [frame: 321; offset: 0]
+    -> RSS: 12    
+
+PID 99 @ 0000010110001100 [page: 22; offset: 12]
+    -> PAGE FAULT
+    -> physical address 0101000010001100 [frame: 322; offset: 12]
+    -> RSS: 13    
+
+PID 99 @ 0000011110001101 [page: 30; offset: 13]
+    -> PAGE FAULT
+    -> physical address 0101000011001101 [frame: 323; offset: 13]
+    -> RSS: 14    
+
+PID 99 @ 0001001100011001 [page: 76; offset: 25]
+    -> PAGE FAULT
+    -> physical address 0101000100011001 [frame: 324; offset: 25]
+    -> RSS: 15    
+
+PID 99 @ 1001001001100100 [page: 585; offset: 36]
+    -> PAGE FAULT
+    -> physical address 0101000101100100 [frame: 325; offset: 36]
+    -> RSS: 16    
+
+PID 99 @ 1000011110100100 [page: 542; offset: 36]
+    -> PAGE FAULT
+    -> physical address 0101000110100100 [frame: 326; offset: 36]
+    -> RSS: 17    
+
+PID 99 @ 0110011110111100 [page: 414; offset: 60]
+    -> PAGE FAULT
+    -> physical address 0101000111111100 [frame: 327; offset: 60]
+    -> RSS: 18    
+
+PID 99 @ 0111110001101110 [page: 497; offset: 46]
+    -> PAGE FAULT
+    -> physical address 0101001000101110 [frame: 328; offset: 46]
+    -> RSS: 19    
+
+PID 99 @ 1000101001001101 [page: 553; offset: 13]
+    -> PAGE FAULT
+    -> physical address 0101001001001101 [frame: 329; offset: 13]
+    -> RSS: 20    
+
+PID 99 @ 1000010001101111 [page: 529; offset: 47]
+    -> PAGE FAULT
+    -> physical address 0101001010101111 [frame: 330; offset: 47]
+    -> RSS: 21    
+
+PID 99 @ 0110001100101001 [page: 396; offset: 41]
+    -> PAGE FAULT
+    -> physical address 0101001011101001 [frame: 331; offset: 41]
+    -> RSS: 22    
+
+PID 99 @ 0001000101010110 [page: 69; offset: 22]
+    -> PAGE FAULT
+    -> physical address 0101001100010110 [frame: 332; offset: 22]
+    -> RSS: 23    
+
+PID 99 @ 0011111110000011 [page: 254; offset: 3]
+    -> PAGE FAULT
+    -> physical address 0101001101000011 [frame: 333; offset: 3]
+    -> RSS: 24    
+
+PID 99 @ 0110011111110000 [page: 415; offset: 48]
+    -> PAGE FAULT
+    -> physical address 0101001110110000 [frame: 334; offset: 48]
+    -> RSS: 25    
+
+PID 99 @ 0010000010101001 [page: 130; offset: 41]
+    -> PAGE FAULT
+    -> physical address 0101001111101001 [frame: 335; offset: 41]
+    -> RSS: 26    
+
+PID 99 @ 0101000110011001 [page: 326; offset: 25]
+    -> PAGE FAULT
+    -> physical address 0101010000011001 [frame: 336; offset: 25]
+    -> RSS: 27    
+
+PID 99 @ 0000110111001100 [page: 55; offset: 12]
+    -> PAGE FAULT
+    -> physical address 0101010001001100 [frame: 337; offset: 12]
+    -> RSS: 28    
+
+PID 99 @ 0111110010001011 [page: 498; offset: 11]
+    -> PAGE FAULT
+    -> physical address 0101010010001011 [frame: 338; offset: 11]
+    -> RSS: 29    
+
+PID 99 @ 0001011000100110 [page: 88; offset: 38]
+    -> PAGE FAULT
+    -> physical address 0101010011100110 [frame: 339; offset: 38]
+    -> RSS: 30    
+
+PID 99 @ 1001001010110100 [page: 586; offset: 52]
+    -> PAGE FAULT
+    -> physical address 0101010100110100 [frame: 340; offset: 52]
+    -> RSS: 31    
+
+PID 99 @ 0001010100000001 [page: 84; offset: 1]
+    -> PAGE FAULT
+    -> physical address 0101010101000001 [frame: 341; offset: 1]
+    -> RSS: 32    
+
+PID 99 @ 0001101101111100 [page: 109; offset: 60]
+    -> PAGE FAULT
+    -> physical address 0101010110111100 [frame: 342; offset: 60]
+    -> RSS: 33    
+
+PID 99 @ 0001101100110001 [page: 108; offset: 49]
+    -> PAGE FAULT
+    -> physical address 0101010111110001 [frame: 343; offset: 49]
+    -> RSS: 34    
+
+PID 99 @ 0100010010001010 [page: 274; offset: 10]
+    -> PAGE FAULT
+    -> physical address 0101011000001010 [frame: 344; offset: 10]
+    -> RSS: 35    
+
+PID 99 @ 0011000010100100 [page: 194; offset: 36]
+    -> PAGE FAULT
+    -> physical address 0101011001100100 [frame: 345; offset: 36]
+    -> RSS: 36    
+
+PID 99 @ 1001100011011001 [page: 611; offset: 25]
+    -> PAGE FAULT
+    -> physical address 0101011010011001 [frame: 346; offset: 25]
+    -> RSS: 37    
+
+PID 99 @ 1001010100010111 [page: 596; offset: 23]
+    -> PAGE FAULT
+    -> physical address 0101011011010111 [frame: 347; offset: 23]
+    -> RSS: 38    
+
+PID 99 @ 0101110100110110 [page: 372; offset: 54]
+    -> PAGE FAULT
+    -> physical address 0101011100110110 [frame: 348; offset: 54]
+    -> RSS: 39    
+
+PID 99 @ 0001010010100010 [page: 82; offset: 34]
+    -> PAGE FAULT
+    -> physical address 0101011101100010 [frame: 349; offset: 34]
+    -> RSS: 40    
+
+PID 99 @ 0011000110011010 [page: 198; offset: 26]
+    -> PAGE FAULT
+    -> physical address 0101011110011010 [frame: 350; offset: 26]
+    -> RSS: 41    
+
+PID 99 @ 0111100010011011 [page: 482; offset: 27]
+    -> PAGE FAULT
+    -> physical address 0101011111011011 [frame: 351; offset: 27]
+    -> RSS: 42    
+
+PID 99 @ 0101011010000010 [page: 346; offset: 2]
+    -> PAGE FAULT
+    -> physical address 0101100000000010 [frame: 352; offset: 2]
+    -> RSS: 43    
+
+PID 99 @ 0101010000101110 [page: 336; offset: 46]
+    -> PAGE FAULT
+    -> physical address 0101100001101110 [frame: 353; offset: 46]
+    -> RSS: 44    
+
+PID 99 @ 0001111101001000 [page: 125; offset: 8]
+    -> PAGE FAULT
+    -> physical address 0101100010001000 [frame: 354; offset: 8]
+    -> RSS: 45    
+
+PID 99 @ 0010011000111100 [page: 152; offset: 60]
+    -> PAGE FAULT
+    -> physical address 0101100011111100 [frame: 355; offset: 60]
+    -> RSS: 46    
+
+PID 99 @ 0101111101100010 [page: 381; offset: 34]
+    -> PAGE FAULT
+    -> physical address 0101100100100010 [frame: 356; offset: 34]
+    -> RSS: 47    
+
+PID 99 @ 0000010011111010 [page: 19; offset: 58]
+    -> PAGE FAULT
+    -> physical address 0101100101111010 [frame: 357; offset: 58]
+    -> RSS: 48    
+
+PID 99 @ 0011110101100101 [page: 245; offset: 37]
+    -> PAGE FAULT
+    -> physical address 0101100110100101 [frame: 358; offset: 37]
+    -> RSS: 49    
+
+PID 99 @ 1000001011011100 [page: 523; offset: 28]
+    -> PAGE FAULT
+    -> physical address 0101100111011100 [frame: 359; offset: 28]
+    -> RSS: 50    
+
+PID 99 @ 0010010000111011 [page: 144; offset: 59]
+    -> PAGE FAULT
+    -> physical address 0101101000111011 [frame: 360; offset: 59]
+    -> RSS: 51    
+
+PID 99 @ 0001111111001101 [page: 127; offset: 13]
+    -> PAGE FAULT
+    -> physical address 0101101001001101 [frame: 361; offset: 13]
+    -> RSS: 52    
+
+PID 99 @ 0100101000100001 [page: 296; offset: 33]
+    -> IN MEMORY
+    -> physical address 0100110111100001 [frame: 311; offset: 33]
+    -> RSS: 52    
+
+Process  10:  ACCESSES: 30     FAULTS: 17     FAULT RATE: 56.67    RSS: 17    
+Process  42:  ACCESSES: 31     FAULTS: 28     FAULT RATE: 90.32    RSS: 28    
+Process  99:  ACCESSES: 53     FAULTS: 52     FAULT RATE: 98.11    RSS: 52    
+
+Total memory accesses:             114
+Total page faults:                  97
+Free frames remaining:             415
