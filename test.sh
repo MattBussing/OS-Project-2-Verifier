@@ -65,7 +65,6 @@ sims=(
     "./OS-Project-2-Verifier/inputs/sim_1"
     "./OS-Project-2-Verifier/inputs/sim_1"
     "./OS-Project-2-Verifier/inputs/sim_1"
-    "./OS-Project-2-Verifier/inputs/sim_1"
     "./OS-Project-2-Verifier/inputs/sim_segfault_1"
     "./OS-Project-2-Verifier/inputs/sim_segfault_2"
     "./OS-Project-2-Verifier/inputs/sim_segfault_1"
