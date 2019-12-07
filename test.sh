@@ -17,6 +17,15 @@ args=(
     "-vf 155 -s LRU"
     "-vf 50 -s LRU"
     "-vf 500 -s LRU"
+    ""
+    "-v"
+    "-v"
+    ""
+    "-c"
+    "-s LRU"
+    "-f 11"
+    ""
+    "-v"
 )
 file_names=(
     "nothing"
@@ -32,6 +41,40 @@ file_names=(
     "fLRU155"
     "fLRU50"
     "fLRU500"
+    "sim_segfault_1_output_no_flag"
+    "sim_segfault_2_output_lru_v_flag"
+    "sim_segfault_1_output_lru_v_flag"
+    "sim_segfault_2_output_no_flag"
+    "sim_1_output_c_flag"
+    "sim_1_output_LRU"
+    "sim_1_output_MF_11"
+    "sim_1_output_no_flag"
+    "sim_1_output_v_flag"
+)
+sims=(
+    "./OS-Project-2-Verifier/inputs/sim_1"
+    "./OS-Project-2-Verifier/inputs/sim_1"
+    "./OS-Project-2-Verifier/inputs/sim_1"
+    "./OS-Project-2-Verifier/inputs/sim_1"
+    "./OS-Project-2-Verifier/inputs/sim_1"
+    "./OS-Project-2-Verifier/inputs/sim_1"
+    "./OS-Project-2-Verifier/inputs/sim_1"
+    "./OS-Project-2-Verifier/inputs/sim_1"
+    "./OS-Project-2-Verifier/inputs/sim_1"
+    "./OS-Project-2-Verifier/inputs/sim_1"
+    "./OS-Project-2-Verifier/inputs/sim_1"
+    "./OS-Project-2-Verifier/inputs/sim_1"
+    "./OS-Project-2-Verifier/inputs/sim_1"
+    "./OS-Project-2-Verifier/inputs/sim_1"
+    "./OS-Project-2-Verifier/inputs/sim_segfault_1"
+    "./OS-Project-2-Verifier/inputs/sim_segfault_2"
+    "./OS-Project-2-Verifier/inputs/sim_segfault_1"
+    "./OS-Project-2-Verifier/inputs/sim_segfault_2"
+    "./OS-Project-2-Verifier/inputs/sim_1"
+    "./OS-Project-2-Verifier/inputs/sim_1"
+    "./OS-Project-2-Verifier/inputs/sim_1"
+    "./OS-Project-2-Verifier/inputs/sim_1"
+    "./OS-Project-2-Verifier/inputs/sim_1"
 )
 
 # takes optional parameter
@@ -42,13 +85,13 @@ if [ "$1" == "test" ]; then
     echo "2 of 2 diff ======================="
     make
     for index in ${!args[*]}; do
-        echo "## Performing [${args[$index]}]                > ${file_names[$index]}"
-        diff -sw <(./mem-sim ${args[$index]} ./inputs/sim_1) $base_dir/${file_names[$index]}
+        echo "## Performing [${args[$index]}] ${sims[$index]}       > ${file_names[$index]}"
+        diff -sw <(./mem-sim ${args[$index]} ${sims[$index]}) $base_dir/${file_names[$index]}
     done
 elif [ "$1" = "gen" ]; then
     echo "Generate Outputs"
     for index in ${!args[*]}; do
-        ./mem-sim ${args[$index]} ./inputs/sim_1 >$base_dir/${file_names[$index]}
+        ./mem-sim ${args[$index]} ${sims[$index]} >$base_dir/${file_names[$index]}
     done
 else
     echo "Error enter either: [test|gen]"
