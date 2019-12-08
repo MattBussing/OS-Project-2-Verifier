@@ -17,13 +17,13 @@ args=(
     "-vf 155 -s LRU"
     "-vf 50 -s LRU"
     "-vf 500 -s LRU"
-    ""
-    "-v"
-    "-v"
-    ""
+    " -s LRU"
+    "-v -s LRU"
+    "-v -s LRU"
+    "-s LRU"
     "-c"
     "-s LRU"
-    "-f 11"
+    "-vf 11"
     ""
     "-v"
 )
@@ -99,4 +99,5 @@ else
     echo "you entered [$1]"
 fi
 
+echo
 echo "COMPLETED"
