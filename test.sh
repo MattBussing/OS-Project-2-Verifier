@@ -84,7 +84,9 @@ if [ "$1" == "test" ]; then
     echo "2 of 2 diff ======================="
     make
     for index in ${!args[*]}; do
+        echo
         echo "## Performing [${args[$index]}] ${sims[$index]}       > ${file_names[$index]}"
+        echo "diff -sw <(./mem-sim ${args[$index]} ${sims[$index]}) $base_dir/${file_names[$index]}"
         diff -sw <(./mem-sim ${args[$index]} ${sims[$index]}) $base_dir/${file_names[$index]}
     done
 elif [ "$1" = "gen" ]; then
